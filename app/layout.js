@@ -1,5 +1,5 @@
 import './globals.css'
-import Navbar from '@/components/navbar'
+// import Navbar from '@/components/navbar'
 
 
 
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar/>
+      {/* <Navbar/> */}
       <body >{children}</body>
       </div>
    
